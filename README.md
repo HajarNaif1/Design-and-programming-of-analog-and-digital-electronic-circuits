@@ -56,3 +56,6 @@ Serial.println(Distance);
 ###### :small_orange_diamond: We were able to measure the distance using an ultrasonic sensor, a method widely used in embedded systems, especially in modern cars and robotics.
 ###### :small_orange_diamond: The measurement results are affected if the sensor is tilted at a large angle from the obstacle, and therefore the entire wave does not return to the receiving unit.
 ###### :small_orange_diamond: There is also a type of ultrasonic sensor called PING, which is the same principle as the sensor mentioned in the article, but by connecting the Trig and Echo implants together, and thus a piece of software is added that works to transfer the state of the digital implant between two input or output states constantly so that the implant works sometimes as Trig and sometimes Others such as Echo.
+
+##### - *To see the result, click on the link* :
+###### https://www.tinkercad.com/things/gCpxC20Axve
