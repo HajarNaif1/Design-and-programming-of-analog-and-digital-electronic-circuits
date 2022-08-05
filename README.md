@@ -1,6 +1,6 @@
 # Design and programming of analog and digital electronic circuits:
 
-#### :one: Distance measurement of the type of analog :bulb: :
+### :one: Distance measurement of the type of analog :bulb: :
 ##### - *Explanation of the circuit* :mag_right: :
 ###### The function of the circuit is to measure the distance between the sensor and an obstacle, and print the result on the serial monitor screen
 ##### - *used gear* :
@@ -62,7 +62,7 @@ Serial.println(Distance);
 
 
 
-#### :two: Control led with push button or with PNP transistor :bulb: :
+### :two: Control led with push button or with PNP transistor :bulb: :
 ##### - *PNP definition* :mag_right: :
 ###### PNP means a long-term solution to provide Number Portability for all customers and all providers consistent with the Act and implementing regulations.
 ##### - *How a PNP Works* :question: 	:hammer_and_wrench:
