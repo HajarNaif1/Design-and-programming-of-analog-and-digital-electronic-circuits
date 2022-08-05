@@ -59,3 +59,7 @@ Serial.println(Distance);
 
 ##### - *To see the result, click on the link* :
 ###### https://www.tinkercad.com/things/gCpxC20Axve
+
+
+
+#### :two: Digital temperature sensor :bulb: :
