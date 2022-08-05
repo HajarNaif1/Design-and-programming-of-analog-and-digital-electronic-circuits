@@ -122,5 +122,8 @@ void loop() {
 }
 
 ```
+- The circuit form is practically as follows :
+![Control led with push button or with PNP transistor](https://user-images.githubusercontent.com/107880209/183119424-a4f6bd05-d6f9-4bbe-9ad8-b7b790e5c3ca.png)
+
 ##### - *To see the result, click on the link* :
 https://www.tinkercad.com/things/gJYLlh5sUD3
