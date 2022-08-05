@@ -14,4 +14,6 @@
 ###### :small_orange_diamond: Connect the trig insert to a digital insert that works in the output mode, let it be the number 8 insert.
 ###### :small_orange_diamond: Connect the echo pin to a digital pin that works in the input mode, let it be the pin number 9.
 
-##### The shape of the general circuit diagram is:
+##### - *The shape of the general circuit diagram is* :
+![image](https://user-images.githubusercontent.com/107880209/182977989-2574d8e5-8673-4572-b036-fe47a1240853.png)
+##### - *The circuit form is practically as follows* :
