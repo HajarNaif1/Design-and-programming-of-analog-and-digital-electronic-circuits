@@ -67,3 +67,58 @@ Serial.println(Distance);
 ###### PNP means a long-term solution to provide Number Portability for all customers and all providers consistent with the Act and implementing regulations.
 ##### - *How a PNP Works* :question:
 ###### The following animation shows a simplified working of a PNP :point_down: 
+![pnp](https://user-images.githubusercontent.com/107880209/183117871-2368b611-d5e0-4427-9b36-31869d23cf51.png)
+##### - *code* :
+```
+/*
+	LED CONTROLLED FROM BUTTON or FROM TRANSISTOR
+*/
+
+// set pin numbers:
+const int buttonPin = 2;     // the number of the pushbutton pin
+const int transistorPin = 3; // the transistor pin
+const int ledPin =  13;      // the number of the LED pin
+
+bool incomingByte = false;
+ 
+// variables will change:
+int buttonState = 0;         // variable for reading the pushbutton status
+ 
+void setup() {
+  // initialize the LED pin as an output:
+  pinMode(ledPin, OUTPUT);
+  pinMode(transistorPin, OUTPUT);
+  // initialize the pushbutton pin as an input:
+  pinMode(buttonPin, INPUT);
+  
+  Serial.begin(9600);
+}
+ 
+void loop() {
+  // read the state of the pushbutton value:
+  buttonState = digitalRead(buttonPin);
+ 
+  // read from serial and control led
+  if (Serial.available() > 0) {
+    incomingByte = Serial.read();
+    // turn LED on:
+    digitalWrite(transistorPin, LOW);
+  }else{
+    incomingByte = Serial.read();
+    // turn LED off:
+  	digitalWrite(transistorPin, HIGH);
+    delay(1000);
+  }
+  
+  // SET LED FROM BUTTON
+  if (buttonState == HIGH) {
+    // turn LED on:
+    digitalWrite(ledPin, HIGH);
+    delay(1000);
+  } else {
+    // turn LED off:
+    digitalWrite(ledPin, LOW);
+  }
+}
+
+```
