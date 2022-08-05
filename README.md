@@ -1,6 +1,6 @@
 # Design and programming of analog and digital electronic circuits:
 
-#### Distance measurement of the type of analog :bulb: :
+#### :one: Distance measurement of the type of analog :bulb: :
 ##### - *Explanation of the circuit* :mag_right: :
 ###### The function of the circuit is to measure the distance between the sensor and an obstacle, and print the result on the serial monitor screen
 ##### - *used gear* :
