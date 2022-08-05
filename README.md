@@ -65,7 +65,7 @@ Serial.println(Distance);
 #### :two: Control led with push button or with PNP transistor :bulb: :
 ##### - *PNP definition* :mag_right: :
 ###### PNP means a long-term solution to provide Number Portability for all customers and all providers consistent with the Act and implementing regulations.
-##### - *How a PNP Works* :question:
+##### - *How a PNP Works* :question: 	:hammer_and_wrench:
 ###### The following animation shows a simplified working of a PNP :point_down: 
 ![pnp](https://user-images.githubusercontent.com/107880209/183117871-2368b611-d5e0-4427-9b36-31869d23cf51.png)
 ##### - *code* :
