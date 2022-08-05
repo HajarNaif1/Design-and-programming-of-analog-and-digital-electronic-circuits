@@ -62,4 +62,5 @@ Serial.println(Distance);
 
 
 
-#### :two: Digital temperature sensor :bulb: :
+#### :two: Control led with push button or with PNP transistor :bulb: :
+
